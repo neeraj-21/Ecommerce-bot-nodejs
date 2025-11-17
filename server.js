@@ -17,8 +17,8 @@ const f = new FBeamer(config.fb);
 const w = new widgets();
 
 let instance = new Razorpay({
-  key_id: 'rzp_test_VsOoD4FfLQugju',
-  key_secret: 'DVPYIhCE7v0Ou0JqsAY94AUi',
+  key_id: '<key-id>',
+  key_secret: '<key-secret>',
 });
 
 server.get("/", (req, res) => f.registerHook(req, res));
@@ -117,7 +117,7 @@ function setRoomPreferences() {
   //             buttons: [{
   //                 type: "web_url",
   //                 //url: f.SERVER_URL + "/options",
-  //                 url: "https://rzp.io/l/Y1QGgew",
+  //                 url: "<url>",
   //                 title: "Set preferences",
   //                 webview_height_ratio: "full",
   //                 messenger_extensions: true
