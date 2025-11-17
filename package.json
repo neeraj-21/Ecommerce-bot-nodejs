@@ -1,0 +1,24 @@
+{
+  "name": "vanilla",
+  "version": "1.0.0",
+  "description": "A Rule based weather bot",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "10.15.1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "1.18.2",
+    "express": "4.16.3",
+    "moment": "2.13.0",
+    "nvm": "0.0.4",
+    "razorpay": "^2.0.4",
+    "request": "2.83.0",
+    "xregexp": "3.1.1"
+  }
+}
